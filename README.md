@@ -3,7 +3,7 @@ Geografische Wahlauswertung für DIE LINKE zur Europawahl 2024. Gewinne und Verl
 
 Das zugehörige Python Skript erzeugt die Karte als `html` Datei.
 
-##Datenquellen
+## Datenquellen
 * [Wahlergebnisse 2019](https://www.bundeswahlleiterin.de/dam/jcr/095b092a-780e-45e1-aca9-caafe903b126/ew19_kerg.csv)
 * Wahlergebnisse 2024: dummy data, 0,8% für die LINKE in jedem Kreis
 * [geografischer Datensatz](https://github.com/jgehrcke/covid-19-germany-gae/tree/master/geodata)

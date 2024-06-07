@@ -86,7 +86,7 @@ dfgeo.plot(
     alpha=0.7,
     column="results_linke_24",
     linewidth=0.1,
-    edgecolor="#555",
+    edgecolor="grey",
     categorical=False,
     legend=True,
     cmap="Reds",
@@ -104,7 +104,7 @@ dfgeo.plot(
     alpha=0.7,
     column="diff_votes_linke",
     linewidth=0.1,
-    edgecolor="#555",
+    edgecolor="grey",
     categorical=False,
     legend=True,
     cmap="coolwarm", #"seismic"
@@ -133,4 +133,5 @@ m = dfgeo.explore(column="diff_votes_linke",
                   style_kwds=dict(style_function=lambda x: {"color":"black" if int(x["properties"]["AGS"]) in relev_ags else "white",
                                                             "weight":2 if int(x["properties"]["AGS"]) in relev_ags else 1}),
                   legend_kwds=dict(caption="LINKE: Unterschied zu 2019, zentriert um den mittleren Verlust [" + f"{(avg_eu24 - avg_eu19):.2f}" + "%]"))
-m.save("auswertung_gesamt.html")
+#m.save("auswertung_gesamt.html")
+m.save("index.html")
