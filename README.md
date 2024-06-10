@@ -1,6 +1,8 @@
 # EU_elect_2024_ger_map
 Geografische Wahlauswertung für DIE LINKE zur Europawahl 2024. Gewinne und Verluste der Partei zwischen der Europawahl 2019 und 2024 sind auf einer [interaktiven Karte](https://paulkeydel.github.io/EU_elect_2024_ger_map/index.html) dargestellt - auf Ebene der Landkreise und kreisfreien Städte. Die schwarz umrandeten Landkreise markieren wo der LINKE EU-Bus den Wahlkampf unterstützt hat.
 
+![alt text](https://github.com/PaulKeydel/EU_elect_2024_ger_map/blob/main/Linke_heatmap.pdf)
+
 Das zugehörige Python Skript erzeugt die Karte als `html` Datei.
 
 ## Datenquellen
